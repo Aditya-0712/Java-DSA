@@ -21,12 +21,13 @@ public class conversion {
         char[] arr = str.toCharArray();
 
         //char to int
-        char z = 'z';
+        char z = '3';
         int ok = z-0;
+        int ok2 = Integer.parseInt(String.valueOf(z));
 
         //char to String
         String str2 = Character.toString(z);
 
-        System.out.println(b+ ch + num + num2 + x + arr[0] + ok + str2);
+        System.out.println(b+ ch + num + num2 + x + arr[0] + ok + ok2 + str2);
     }
 }
